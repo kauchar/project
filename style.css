@@ -1,10 +1,17 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
 }
-.text-hilight{
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgrey;
+}
+.orange-hilight{
     color: orange;
 }
 .half-wigth{
@@ -15,4 +22,49 @@ h1{
 }
 .half-wigth img{
     width: 100%;
+}
+.top-banar{
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    border-radius: 5px;
+    color: white;
+}
+.drem-aria{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-expereance{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.experince-aria{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-sack{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg,lightsalmon ,tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: 16px;
 }
